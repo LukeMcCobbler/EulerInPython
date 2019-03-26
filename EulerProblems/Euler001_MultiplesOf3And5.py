@@ -9,4 +9,5 @@ def solveEuler001():
     multsOf15Under100=multiplesOfXUnderN(15,1000)
     retval=multsOf3Under100+multsOf5Under100-multsOf15Under100
     return retval
-print(solveEuler001())
+def runEuler001():
+    print(solveEuler001())
