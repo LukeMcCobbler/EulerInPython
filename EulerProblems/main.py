@@ -1,3 +1,4 @@
 import EulerProblems.Euler001_MultiplesOf3And5
 import EulerProblems.Euler002_EvenFibonacciNumbers
-EulerProblems.Euler002_EvenFibonacciNumbers.runEuler002()
+import EulerProblems.Euler003_LargestPrimeFactor
+EulerProblems.Euler003_LargestPrimeFactor.runEuler003()
