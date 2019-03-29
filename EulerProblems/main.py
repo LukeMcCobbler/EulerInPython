@@ -1,4 +1,6 @@
 import EulerProblems.Euler001_MultiplesOf3And5
 import EulerProblems.Euler002_EvenFibonacciNumbers
 import EulerProblems.Euler003_LargestPrimeFactor
-EulerProblems.Euler003_LargestPrimeFactor.runEuler003()
+import EulerProblems.Euler004_LargestPalindromeProduct
+#EulerProblems.Euler003_LargestPrimeFactor.runEuler003()
+EulerProblems.Euler004_LargestPalindromeProduct.runEuler004()
