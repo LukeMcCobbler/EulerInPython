@@ -8,7 +8,7 @@ def populateWithSieve(maxNeededPrime):
             for i in range(p * 2, maxNeededPrime + 1, p):
                 prime[i] = False
         p += 1
-    retval=list(filter(lambda n:prime[n],range(maxNeededPrime)))
+    retval=list(filter(lambda n:prime[n],range(2,maxNeededPrime)))
     return retval
 def performPrimeFactorSearch(target,primeList):
     retval={}
